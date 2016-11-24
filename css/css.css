@@ -1,0 +1,35 @@
+#left {
+    background-color: #1b6d85;
+    width: 300px;
+    height: 100%;
+    float: left;
+}
+
+body, html {
+    margin: 0;
+    height: 100%;
+}
+
+div:hover {
+    color: #ffffff;
+
+}
+div{
+    color: #000;
+}
+
+button:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+}
+
+button {
+    width: 170px;
+    height: 120px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    display: block
+}

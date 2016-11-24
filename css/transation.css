@@ -1,0 +1,28 @@
+img {
+    width: 100px;
+    height: 100px;
+}
+
+img:hover {
+    width: 200px;
+    height: 200px;
+    animation: 1s rainbow alternate;
+}
+@keyframes rainbow {
+    0% {background: #c00}
+    50% {background: orange}
+    100%{background: yellowgreen}
+}
+
+div {
+}
+
+div:hover {
+    animation: spin 1s linear infinite;
+    animation-play-state: running;
+}
+@keyframes spin {
+    to{
+        transform: rotate(1turn);
+    }
+}
